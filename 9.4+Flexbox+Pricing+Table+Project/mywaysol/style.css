@@ -1,0 +1,47 @@
+body{
+    background-color: #efe6e6;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    gap: 2rem;
+
+}
+.card {
+    flex:1;
+    max-width: 400px;
+    text-align: center;
+    background-color: #bab7b7;
+    border-radius: 5px;
+    padding: 25px;
+   
+    
+}
+.features{
+    
+    list-style: none;
+    padding: 5px;
+}
+button{
+    background-color: rgb(227, 99, 7);
+    border-radius: 4px;
+    color:white;
+    border: none;
+}
+@media (max-width:500px){
+    .container{
+        flex-direction:column;
+        height:100%
+
+    }
+     
+
+}
+
+  
+
